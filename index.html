@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etkileşimli Not Defteri</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Basit Not Defteri</h1>
+
+        <form id="note-form">
+            <input type="text" id="note-title" placeholder="Başlık" required>
+            <textarea id="note-content" placeholder="Notunuzu buraya yazın..." required></textarea>
+            <button type="submit">Notu Kaydet</button>
+        </form>
+
+        <div id="notes-list">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
